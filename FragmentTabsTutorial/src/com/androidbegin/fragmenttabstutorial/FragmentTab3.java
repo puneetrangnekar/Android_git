@@ -23,6 +23,7 @@ public class FragmentTab3 extends Fragment implements ActionBar.TabListener {
 		// Attach fragment3.xml layout
 		ft.add(android.R.id.content, mFragment);
 		ft.attach(mFragment);
+		System.out.println("Good job bos!!!");
 	}
 
 	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
